@@ -7,8 +7,15 @@
 }
 
 .header_area .main_menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 5rem;
 }
 
+.header_area .main_menu .nav-item .nav-link{
+    font-family: 'Roboto' cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.6rem;
+    color: black;
+}
 
 /* Navegacion */
