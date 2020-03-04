@@ -1,6 +1,10 @@
 /* Fonts */
 @import url(./fonts.css);
 
+/* Variables */
+@import url(./partials/_variables.css);
+
+
 /* Navegacion */
 .header_area .main_menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -11,11 +15,11 @@
 }
 
 .header_area .main_menu .nav-item .nav-link{
-    font-family: 'Roboto' cursive;
+    font-family: var(--roboto);
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.6rem;
-    color: black;
+    color: var(--title-color);
 }
 
 /* Navegacion */
