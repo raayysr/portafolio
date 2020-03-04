@@ -1,2 +1,14 @@
 /* Fonts */
 @import url(./fonts.css);
+
+/* Navegacion */
+.header_area .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main_menu .navbar{
+    padding: 1rem 20rem;
+}
+
+
+/* Navegacion */
