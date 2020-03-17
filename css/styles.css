@@ -9,8 +9,9 @@
 
 
 /* Navegacion */
-.header_area .main_menu .navbar .navbar-brand{
+.header_area .main_menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
+    font: normal 500 34px/2px var(--roboto);
 }
 
 .header_area .main_menu .navbar{
@@ -42,25 +43,13 @@
 
 /* Banner */
 
-.site-main .site-banner{
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-    
-}
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
 }
 
-.site-main .site-banner h3::after{
-    content: "";
-    height: 2px;
-    width: 18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(0px);
-}
+
 
 .site-main .site-banner h1{
     font-size: 5rem;
@@ -193,7 +182,7 @@
 
 .site-main > .services-area .services{
     background: rgba(248, 252, 253, 0.973);
-    padding: 2rem 0;
+    padding: 1rem 0;
     width: 16rem;
     margin: 5rem .5rem;
     transition: box-shadow .7 ease;
@@ -205,3 +194,26 @@
 }
 
 /* FIN INTERESES */
+
+/* REDES */
+
+footer.footer-area{
+    padding: 1rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: gray;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+/* FIN REDES */
